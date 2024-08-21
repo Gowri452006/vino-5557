@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: lightpink;
+        animation-name: para1;
+        animation-duration: 10s;
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        width: fit-content;   
+        text-decoration: underline;
+        position: sticky;
+        top: 0;
+    }  
+    p{
+        font-size: large;
+        background-color: aqua;
+        width: fit-content;
+        font-weight: 700;
+    }   
+    h2{
+        text-decoration: underline;
+    }
+    img{
+        opacity: 1.2
+    }
+    img:hover{
+        opacity: 0.5;
+        transform: rotate(360deg);
+        transition: 1s;
+        
+    }
+    .para{
+        animation-name: para;
+        animation-duration: 5s;
+    }
+    @keyframes para{
+        0%{
+            background: pink;
+        }
+        10%{
+            background: red;
+        }
+        20%{
+            background:orange;
+        }
+        30%{
+            background: yellow;
+        }
+        40%{
+            background: green;
+        }
+        50%{
+            background: blue;
+        }
+        }
+        @keyframes para1{
+        0%{
+            background: red;
+        }
+        10%{
+            background: pink;
+        }
+        20%{
+            background: yellow;
+        }
+        30%{
+            background: orange;
+        }
+        40%{
+            background: violet;
+        
+        }
+        50%{
+            background: blue;
+        }
+        }
+        
+</style>
+<body>
+    
+    <center><h1>ANIMATION PROPERTY</h1>
+    <h2>Animals</h2>
+    <p class="para">“Pets are humanizing. They remind us we have an obligation and responsibility to preserve and nurture and care for all life.”<br>
+        “Your fervent wishes can only find fulfillment if you succeed in attaining love and understanding of men, and animals, and plants, and stars.<br>so that every joy becomes your joy and every pain your pain."<br></p>
+      <img src="./animal1.jpg" height="300px" width="300px">
+      <img src="./animal2.jpg" height="300px" width="300px">
+      <img src="./animal3.jpg" height="300px" width="300px">
+      <img src="./animal4.jpg" height="300px" width="300px">
+      <h2>Birds</h2>
+      <p class="para">Intelligence without ambition is a bird without wings. Hold fast to dreams, for if dreams die, life is a broken-winged bird that cannot fly. <br>A forest bird never wants a cage. It may be hard for an egg to turn into a bird.<br> It would be a jolly sight harder for it to learn to fly while remaining an egg.</p><br>
+      <img src="./bird1.jpg" height="300px" width="300px">
+      <img src="./bird2.jpg" height="300px" width="300px">
+      <img src="./bird3.jpg" height="300px" width="300px">
+      <img src="./bird4.jpg" height="300px" width="300px">
+    </center>
+    </body>
+</html>
